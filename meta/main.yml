@@ -1,0 +1,17 @@
+---
+galaxy_info:
+  author: Juwai Limited
+  description: Install zerorpc Python on CentOS server
+  company: Juwai Limited
+  license: MIT / BSD
+  min_ansible_version: 1.9
+  platforms:
+  - name: EL
+    versions:
+    - 6
+  # - name: Amazon
+  #   versions:
+  #   - 2015.09
+  galaxy_tags: [amazon, centos6, python, zerorpc]
+dependencies:
+- role: juwai.python27
